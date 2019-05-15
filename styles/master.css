@@ -1,37 +1,120 @@
-body{
-  background: url('images/pagefond.svg') top center no-repeat;
-  background-size: cover;
-  width:100%;
-  max-width: 100%;
-  
+
+
+.notice {
+justify-content: center;
+height: 100%;
+ z-index:3
+ }
+
+header img {
+  max-width: 15%;
+  max-height: 10vh;
 }
 
-.premiere{
-height:150px;
-display: flex;
-align-items: center;
+header {
+  display: flex;
+  justify-content: center;
+  min-height: 30vh;
+  background:  url('images/ville.svg') bottom center no-repeat;
+  background-color: #c5d6f0;
+  background-size: cover;
 }
+
+.main-view {
+    display: flex;
+    justify-content: space-between;
+  min-height: 65vh;
+  align-items: center;
+  background: url('images/river.svg') bottom center no-repeat;
+  background-color: rgb(46,50,114);
+}
+
 .left-bank{
-  margin-left: 50px;
+width: 18%;
 }
+
 .couple{
   display: flex;
 }
 
+.person {
+  flex-basis: 120px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
 .personh {
-  width: 10%;
-  margin:3;
 }
 
 .personf {
-  width: 10%;
 }
 
+.person img {
+  width: 100%;
+
+}
+
+
 .right-bank {
-  width: 10%;
-	float: right;
-	margin: 0;
-	padding: 3em 4%;
-	overflow: hidden;
-	min-height: 12em;
+width: 18%;
+
+}
+
+footer {
+min-height: 15vh;
+ background-color: #c5d6f0;
+  display: flex;
+  align-items: center;
+}
+
+
+.reponses {
+  display: flex;
+  justify-content: space-evenly;
+  width : 100%;
+}
+
+.possibilites {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.choix img {
+display: flex;
+justify-content: space-between;
+
+max-height: 10vh;
+}
+
+.bouton1 img {
+
+}
+
+.bouton2 img {
+
+
+}
+
+.bouton3 img {
+l
+
+}
+
+.bouton4 img {
+
+
+}
+
+.bouton5 img {
+
+
 }
